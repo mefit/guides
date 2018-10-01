@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>程序开发指北</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>程序开发指北</h1>
+				</section>
+
+				<section>
+					<h2>目录</h2>
+					<p>语言</p>
+					<p>环境</p>
+					<p>流程</p>
+				</section>
+
+				<section>
+					<section>
+						<h2>语言</h2>
+						<aside class="notes">
+							现场讨论：程序开发语境下，提到“语言(Language)”，会想到什么？
+						</aside>
+					</section>
+
+					<section>
+						<h2>英语为主</h2>
+						<table>
+							<thead>
+								<tr><th>场景</th><th>频率</th></tr>
+							</thead>
+							<tbody>
+								<tr><td>Codes, Commits</td><td>always</td></tr>
+								<tr><td>Comments, Docs</td><td>almost</td></tr>
+							</tbody>
+						</table>
+					</section>
+
+					<section>
+						<h2>英文排版</h2>
+						<ol>
+							<li>句首大写，词间空格</li>
+							<li>符号与空格的处理：<ul>
+								<li>点号（逗号、句号等）后加一个空格</li>
+								<li>符号 + 数字 或 数字 + 符号 的连用形式时，中间不加空格
+									<blockquote>17°, 100%, $10, -23</blockquote>
+								</li>
+								<li>括号、引号外面前后加空格，里面前后无空格。</li>
+							</ul></li>
+						</ol>
+					</section>
+
+					<section>
+						<h2>中文排版</h2>
+						<ol>
+							<li>使用直引号 「」 和 『』：<ul>
+								<li>单直引号内再用引号时，使用双直引号</li>
+								<li>当引号表达讽刺、反语、暗示时，使用弯引号</li>
+							</ul></li>
+							<li>点号（顿号、逗号、句号等）、结束引号、结束括号、结束双书名号等，不能出现在一行的开头</li>
+							<li>开始引号、开始括号、开始双书名号等，不能出现在一行的结尾</li>
+						</ol>
+					</section>
+
+					<section>
+						<h2>程序语言</h2>
+						<p>没有所谓的“最佳风格”。选择一种风格，一致地使用，并用文档清楚地记录。</p>
+					</section>
+
+					<section>
+						<h2>专用术语</h2>
+						<p>在团队内一致地使用，否则不使用</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>环境</h2>
+						<aside class="notes">
+							现场讨论：程序开发语境下，提到“环境(Environment)”，会想到什么？
+						</aside>
+					</section>
+
+					<section>
+						<h2>程序环境</h2>
+						<p>= 代码 + 配置 + 数据</p>
+					</section>
+
+					<section>
+						<h2>程序环境</h2>
+						<ul>
+							<li>development (dev, develop)</li>
+							<li>test (testing)</li>
+							<li>staging (stage)</li>
+							<li>production (prod)</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>工作环境</h2>
+						<p>不同类型的工作需要不同类型的环境</p>
+					</section>
+
+					<section>
+						<h2>会议讨论</h2>
+						<small>针对既定主题或大纲，展开收敛性或发散性的讨论</small>
+						<p>典型场所：会议室，讨论间</p>
+					</section>
+
+					<section>
+						<h2>浅度工作</h2>
+						<small>对认知要求不高的事务性任务，可以在受到干扰的情况下开展</small>
+						<p>典型场所：开放办公室</p>
+					</section>
+
+					<section>
+						<h2>深度工作</h2>
+						<small>在无干扰的状态下专注进行职业活动，使个人的认知能力达到极限</small>
+						<p>典型场所：图书馆，研读间</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>流程</h2>
+						<aside class="notes">
+							现场讨论：程序开发语境下，提到“流程(Workflow/Pipeline)”，会想到什么？
+						</aside>
+					</section>
+
+					<section>
+						<h2>敏捷开发</h2>
+						<p>需求/缺陷 -> 迭代 -> 冲刺 -> 版本</p>
+					</section>
+
+					<section>
+						<h2>测试体系</h2>
+						<p>单元，集成，系统，回溯</p>
+					</section>
+
+					<section>
+						<h2>持续集成</h2>
+						<p>自动测试，自动部署，灰度发布</p>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
